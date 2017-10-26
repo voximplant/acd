@@ -71,7 +71,7 @@ function handleCallConnected(e) {
 			minutesWord = " minutes.";
 		}
 		originalCall.say("You are " + ordinal_suffix_of(acdevent.position) +
-			" in a queue. Represetative will answer you in " + (acdevent.ewt + 1) + minutesWord, Language.US_ENGLISH_FEMALE);
+			" in a queue. Representative will answer you in " + (acdevent.ewt + 1) + minutesWord, Language.US_ENGLISH_FEMALE);
 	});
 
 	// Connect caller with operator
